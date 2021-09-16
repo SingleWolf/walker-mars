@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/walker/develop/Android/mars-1.3.0/mars/boost/libs/context/src/asm/jump_arm_aapcs_elf_gas.S
+
+/Users/walker/develop/Android/mars-1.3.0/mars/boost/libs/context/src/asm/make_arm_aapcs_elf_gas.S
+

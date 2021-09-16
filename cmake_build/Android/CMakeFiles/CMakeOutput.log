@@ -1,0 +1,541 @@
+The target system is: Android - 1 - armv7-a
+The host system is: Darwin - 18.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc 
+Build flags: -isystem;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi;-D__ANDROID_API__=14;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16;-mthumb;-Wa,--noexecstack;-Wformat;-Werror=format-security;
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/3.6.0-rc2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++ 
+Build flags: -isystem;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi;-D__ANDROID_API__=14;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-march=armv7-a;-mfloat-abi=softfp;-mfpu=vfpv3-d16;-mthumb;-Wa,--noexecstack;-Wformat;-Werror=format-security;-std=c++11;-fno-strict-aliasing;
+Id flags: -c
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/3.6.0-rc2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b217d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b217d.dir/build.make CMakeFiles/cmTC_b217d.dir/build
+Building C object CMakeFiles/cmTC_b217d.dir/testCCompiler.c.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security     -o CMakeFiles/cmTC_b217d.dir/testCCompiler.c.o   -c /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b217d
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b217d.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc   CMakeFiles/cmTC_b217d.dir/testCCompiler.c.o  -o cmTC_b217d -latomic -lm 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_197e8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_197e8.dir/build.make CMakeFiles/cmTC_197e8.dir/build
+Building C object CMakeFiles/cmTC_197e8.dir/CMakeCCompilerABI.c.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security     -o CMakeFiles/cmTC_197e8.dir/CMakeCCompilerABI.c.o   -c /Users/walker/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_197e8
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_197e8.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc  -v CMakeFiles/cmTC_197e8.dir/CMakeCCompilerABI.c.o  -o cmTC_197e8  
+Using built-in specs.
+COLLECT_GCC=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc
+COLLECT_LTO_WRAPPER=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=14' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a' '-v' '-o' 'cmTC_197e8' '-mtls-dialect=gnu'
+ /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/_c/1szfhcmn0cx9kwrgqp177b400000gn/T//ccr6Z1pQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_197e8 /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_197e8.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_197e8/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_197e8.dir/build.make CMakeFiles/cmTC_197e8.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_197e8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security     -o CMakeFiles/cmTC_197e8.dir/CMakeCCompilerABI.c.o   -c /Users/walker/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_197e8]
+  ignore line: [/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_197e8.dir/link.txt --verbose=1]
+  ignore line: [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc  -v CMakeFiles/cmTC_197e8.dir/CMakeCCompilerABI.c.o  -o cmTC_197e8  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=14' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a' '-v' '-o' 'cmTC_197e8' '-mtls-dialect=gnu']
+  link line: [ /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/_c/1szfhcmn0cx9kwrgqp177b400000gn/T//ccr6Z1pQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_197e8 /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_197e8.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtend_android.o]
+    arg [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/_c/1szfhcmn0cx9kwrgqp177b400000gn/T//ccr6Z1pQ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_197e8] ==> ignore
+    arg [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_197e8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib]
+  implicit libs: [c;dl]
+  implicit dirs: [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfcff/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bfcff.dir/build.make CMakeFiles/cmTC_bfcff.dir/build
+Building C object CMakeFiles/cmTC_bfcff.dir/feature_tests.c.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security     -std=c11 -o CMakeFiles/cmTC_bfcff.dir/feature_tests.c.o   -c /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bfcff
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfcff.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc   CMakeFiles/cmTC_bfcff.dir/feature_tests.c.o  -o cmTC_bfcff -latomic -lm 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52119/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_52119.dir/build.make CMakeFiles/cmTC_52119.dir/build
+Building C object CMakeFiles/cmTC_52119.dir/feature_tests.c.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security     -std=c99 -o CMakeFiles/cmTC_52119.dir/feature_tests.c.o   -c /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/feature_tests.c
+Linking C executable cmTC_52119
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52119.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc   CMakeFiles/cmTC_52119.dir/feature_tests.c.o  -o cmTC_52119 -latomic -lm 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b2da/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0b2da.dir/build.make CMakeFiles/cmTC_0b2da.dir/build
+Building C object CMakeFiles/cmTC_0b2da.dir/feature_tests.c.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security     -std=c90 -o CMakeFiles/cmTC_0b2da.dir/feature_tests.c.o   -c /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0b2da
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b2da.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc   CMakeFiles/cmTC_0b2da.dir/feature_tests.c.o  -o cmTC_0b2da -latomic -lm 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b33a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3b33a.dir/build.make CMakeFiles/cmTC_3b33a.dir/build
+Building CXX object CMakeFiles/cmTC_3b33a.dir/testCXXCompiler.cxx.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/android/support/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing     -o CMakeFiles/cmTC_3b33a.dir/testCXXCompiler.cxx.o -c /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3b33a
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b33a.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc   CMakeFiles/cmTC_3b33a.dir/testCXXCompiler.cxx.o  -o cmTC_3b33a -latomic -lm "/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.so" 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_812cd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_812cd.dir/build.make CMakeFiles/cmTC_812cd.dir/build
+Building CXX object CMakeFiles/cmTC_812cd.dir/CMakeCXXCompilerABI.cpp.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/android/support/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing     -o CMakeFiles/cmTC_812cd.dir/CMakeCXXCompilerABI.cpp.o -c /Users/walker/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_812cd
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_812cd.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc  -v CMakeFiles/cmTC_812cd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_812cd  
+Using built-in specs.
+COLLECT_GCC=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++
+COLLECT_LTO_WRAPPER=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper
+Target: arm-linux-androideabi
+Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/
+LIBRARY_PATH=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=14' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-std=c++11' '-fno-strict-aliasing' '-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a' '-v' '-o' 'cmTC_812cd' '-mtls-dialect=gnu'
+ /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/_c/1szfhcmn0cx9kwrgqp177b400000gn/T//ccFVy163.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_812cd /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_812cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_812cd/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_812cd.dir/build.make CMakeFiles/cmTC_812cd.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_812cd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/android/support/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing     -o CMakeFiles/cmTC_812cd.dir/CMakeCXXCompilerABI.cpp.o -c /Users/walker/Library/Android/sdk/cmake/3.6.4111459/share/cmake-3.6/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_812cd]
+  ignore line: [/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_812cd.dir/link.txt --verbose=1]
+  ignore line: [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc  -v CMakeFiles/cmTC_812cd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_812cd  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper]
+  ignore line: [Target: arm-linux-androideabi]
+  ignore line: [Configured with: /Volumes/Android/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --target=arm-linux-androideabi --host=x86_64-apple-darwin --build=x86_64-apple-darwin --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -lstdc++ -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --with-float=soft --with-fpu=vfp --with-arch=armv5te --enable-target-optspace --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa --with-sysroot=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/b4566ac8ab7a8039eb0f097bbc2e31fa/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-threads --enable-eh-frame-hdr-for-static --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --with-arch=armv5te --program-transform-name='s&^&arm-linux-androideabi-&' --enable-gold=default]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/]
+  ignore line: [LIBRARY_PATH=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/:/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi' '-D' '__ANDROID_API__=14' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-march=armv7-a' '-mfloat-abi=softfp' '-mfpu=vfpv3-d16' '-mthumb' '-Wformat=1' '-Werror=format-security' '-std=c++11' '-fno-strict-aliasing' '-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a' '-v' '-o' 'cmTC_812cd' '-mtls-dialect=gnu']
+  link line: [ /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2 -plugin /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so -plugin-opt=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper -plugin-opt=-fresolution=/var/folders/_c/1szfhcmn0cx9kwrgqp177b400000gn/T//ccFVy163.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm --eh-frame-hdr -dynamic-linker /system/bin/linker -X -m armelf_linux_eabi -z noexecstack -z relro -z now -o cmTC_812cd /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtbegin_dynamic.o -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --exclude-libs libunwind.a --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_812cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lc -ldl -lgcc /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtend_android.o]
+    arg [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../libexec/gcc/arm-linux-androideabi/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/_c/1szfhcmn0cx9kwrgqp177b400000gn/T//ccFVy163.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_812cd] ==> ignore
+    arg [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib]
+    arg [-L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib] ==> dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libunwind.a] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_812cd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib]
+  collapse library dir [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib] ==> [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib]
+  implicit libs: [stdc++;m;c;dl]
+  implicit dirs: [/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/arm-linux-androideabi/lib;/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c23c2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c23c2.dir/build.make CMakeFiles/cmTC_c23c2.dir/build
+Building CXX object CMakeFiles/cmTC_c23c2.dir/feature_tests.cxx.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/android/support/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing     -std=c++14 -o CMakeFiles/cmTC_c23c2.dir/feature_tests.cxx.o -c /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c23c2
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c23c2.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc   CMakeFiles/cmTC_c23c2.dir/feature_tests.cxx.o  -o cmTC_c23c2 -latomic -lm "/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.so" 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0dc1/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e0dc1.dir/build.make CMakeFiles/cmTC_e0dc1.dir/build
+Building CXX object CMakeFiles/cmTC_e0dc1.dir/feature_tests.cxx.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/android/support/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing     -std=c++11 -o CMakeFiles/cmTC_e0dc1.dir/feature_tests.cxx.o -c /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e0dc1
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0dc1.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc   CMakeFiles/cmTC_e0dc1.dir/feature_tests.cxx.o  -o cmTC_e0dc1 -latomic -lm "/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.so" 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_255bf/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_255bf.dir/build.make CMakeFiles/cmTC_255bf.dir/build
+Building CXX object CMakeFiles/cmTC_255bf.dir/feature_tests.cxx.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot   -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/android/support/include -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing     -std=c++98 -o CMakeFiles/cmTC_255bf.dir/feature_tests.cxx.o -c /Users/walker/develop/Android/mars-1.3.0/mars/cmake_build/Android/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_255bf
+/Users/walker/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E cmake_link_script CMakeFiles/cmTC_255bf.dir/link.txt --verbose=1
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-g++  --sysroot=/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot  -isystem /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -fno-strict-aliasing    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/platforms/android-14/arch-arm -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--fix-cortex-a8 -Wl,--exclude-libs,libunwind.a -L/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc   CMakeFiles/cmTC_255bf.dir/feature_tests.cxx.o  -o cmTC_255bf -latomic -lm "/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++.so" 
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

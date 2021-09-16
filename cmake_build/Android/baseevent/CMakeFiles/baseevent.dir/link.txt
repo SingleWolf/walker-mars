@@ -1,0 +1,2 @@
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc-ar qc libbaseevent.a  CMakeFiles/baseevent.dir/src/active_logic.cc.o CMakeFiles/baseevent.dir/src/baseprj.cc.o CMakeFiles/baseevent.dir/src/baseprjevent.cc.o CMakeFiles/baseevent.dir/jni/com_tencent_mars_BaseEvent.cc.o
+/Users/walker/Library/Android/sdk/ndk/android-ndk-r16b/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc-ranlib libbaseevent.a
