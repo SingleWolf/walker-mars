@@ -29,7 +29,7 @@ if(ANDROID)
     link_directories(app baseevent log sdt stn comm boost)
 
     # marsxlog
-    set(SELF_LIB_NAME marsxlog)
+    set(SELF_LIB_NAME safelog)
 
     file(GLOB SELF_SRC_FILES libraries/mars_android_sdk/jni/JNI_OnLoad.cc
             libraries/mars_xlog_sdk/jni/import.cc)
@@ -78,7 +78,7 @@ if(ANDROID)
                             baseevent
                             comm
                             mars-boost
-                            marsxlog)
+                            safelog)
     else()
         target_link_libraries(${SELF_LIB_NAME} "-Wl,--gc-sections -Wl,--version-script=\"${EXPORT_EXP_FILE}\""
                             ${log-lib}
@@ -88,7 +88,7 @@ if(ANDROID)
                             baseevent
                             comm
                             mars-boost
-                            marsxlog)
+                            safelog)
     endif()
 elseif(APPLE)
 

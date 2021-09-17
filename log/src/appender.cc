@@ -73,7 +73,8 @@
 
 #include "log_buffer.h"
 
-#define LOG_EXT "xlog"
+//#define LOG_EXT "xlog"
+#define LOG_EXT "mylog"
 
 extern void log_formater(const XLoggerInfo* _info, const char* _logbody, PtrBuffer& _log);
 extern void ConsoleLog(const XLoggerInfo* _info, const char* _log);
@@ -878,6 +879,7 @@ void appender_open(TAppenderMode _mode, const char* _dir, const char* _nameprefi
         __writetips2file("~~~~~ end of mmap ~~~~~%s\n", mark_info);
     }
 
+    /*
     tickcountdiff_t get_mmap_time = tickcount_t().gettickcount() - tick;
 
     char appender_info[728] = {0};
@@ -906,7 +908,7 @@ void appender_open(TAppenderMode _mode, const char* _dir, const char* _nameprefi
     boost::filesystem::space_info info = boost::filesystem::space(sg_logdir);
     snprintf(logmsg, sizeof(logmsg), "log dir space info, capacity:%" PRIuMAX" free:%" PRIuMAX" available:%" PRIuMAX, info.capacity, info.free, info.available);
     xlogger_appender(NULL, logmsg);
-
+    */
     BOOT_RUN_EXIT(appender_close);
 
 }
@@ -964,7 +966,7 @@ void appender_close() {
     char mark_info[512] = {0};
     get_mark_info(mark_info, sizeof(mark_info));
     char appender_info[728] = {0};
-    snprintf(appender_info, sizeof(appender_info), "$$$$$$$$$$" __DATE__ "$$$" __TIME__ "$$$$$$$$$$%s\n", mark_info);
+    snprintf(appender_info, sizeof(appender_info), " $$$ " __DATE__ " $$$ " __TIME__ "$$$ %s\n", mark_info);
     xlogger_appender(NULL, appender_info);
 
     sg_log_close = true;

@@ -160,7 +160,7 @@ if __name__ == '__main__':
             main(False, archs, tag=sys.argv[1])
             break
         else:
-            archs = set(['armeabi'])
+            archs = set(['armeabi-v7a'])
             num = raw_input('Enter menu:\n1. Clean && build mars.\n2. Build incrementally mars.\n3. Clean && build xlog.\n4. Exit\n')
             if num == '1':
                 main(False, archs)
@@ -169,7 +169,7 @@ if __name__ == '__main__':
                 main(True, archs)
                 break
             elif num == '3':
-                main(False, archs, '--target marsxlog')
+                main(False, archs, '--target safelog')
                 break
             elif num == '4':
                 break

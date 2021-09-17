@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../../libraries/walker_log/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../libraries/walker_log/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../libraries/walker_log">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../libraries/walker_log/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../libraries/walker_log/build/generated/renderscript_source_output_dir/debug/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../libraries/walker_log/build/generated/res/resValues/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../libraries/walker_log/build/generated/res/rs/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../libraries/walker_log/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../libraries/walker_log/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../libraries/walker_log/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../libraries/walker_log/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

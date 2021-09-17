@@ -69,9 +69,9 @@ void log_formater(const XLoggerInfo* _info, const char* _logbody, PtrBuffer& _lo
     }
 
     if (NULL != _info) {
-        const char* filename = ExtractFileName(_info->filename);
-        char strFuncName [128] = {0};
-        ExtractFunctionName(_info->func_name, strFuncName, sizeof(strFuncName));
+        //const char* filename = ExtractFileName(_info->filename);
+        //char strFuncName [128] = {0};
+        //ExtractFunctionName(_info->func_name, strFuncName, sizeof(strFuncName));
 
         char temp_time[64] = {0};
 
@@ -91,10 +91,13 @@ void log_formater(const XLoggerInfo* _info, const char* _logbody, PtrBuffer& _lo
         }
 
         // _log.AllocWrite(30*1024, false);
-        int ret = snprintf((char*)_log.PosPtr(), 1024, "[%s][%s][%" PRIdMAX ", %" PRIdMAX "%s][%s][%s, %s, %d][",  // **CPPLINT SKIP**
+        /*int ret = snprintf((char*)_log.PosPtr(), 1024, "[%s][%s][%" PRIdMAX ", %" PRIdMAX "%s][%s][%s, %s, %d][",  // **CPPLINT SKIP**
                            _logbody ? levelStrings[_info->level] : levelStrings[kLevelFatal], temp_time,
-                           _info->pid, _info->tid, _info->tid == _info->maintid ? "*" : "", _info->tag ? _info->tag : "",
-                           filename, strFuncName, _info->line);
+                          _info->pid, _info->tid, _info->tid == _info->maintid ? "*" : "", _info->tag ? _info->tag : "",
+                           filename, strFuncName, _info->line);*/
+
+        int ret = snprintf((char*)_log.PosPtr(), 1024, "[%s][%s][%s]",_logbody ? levelStrings[_info->level] : levelStrings[kLevelFatal],
+         temp_time,_info->tag ? _info->tag : "");
 
         assert(0 <= ret);
         _log.Length(_log.Pos() + ret, _log.Length() + ret);
